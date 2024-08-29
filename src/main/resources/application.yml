@@ -27,3 +27,7 @@ management:
 
   security:
     enabled: false
+
+logging:
+  level.org.springframework.web=INFO
+  file.name=logs/app.log
